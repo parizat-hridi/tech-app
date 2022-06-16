@@ -1,0 +1,22 @@
+@media (max-width: 575.98px) {
+  .top-card-margin {
+    margin-top: 7%;
+  }
+  .web-button {
+    background-color: #8f8e8f;
+    font-weight: 700;
+    color: #ededed;
+    padding: 5px 30px;
+    border-radius: 5px;
+    /* margin-right: 35px; */
+    border-color: #ededed;
+  }
+  .web-style {
+    background-color: #8f8e8f;
+    font-weight: 700;
+    color: #ededed;
+    padding: 5px 39px;
+    border-radius: 5px;
+    border-color: #ededed;
+  }
+}

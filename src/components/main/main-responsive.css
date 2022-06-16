@@ -1,0 +1,43 @@
+.domains {
+  font-size: 20px;
+  font-weight: 700;
+  color: #7a7272;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  header {
+    margin-top: 6%;
+  }
+  header .best-text {
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: lowercase;
+  }
+  .dream-text {
+    color: white;
+    font-size: 15px;
+    line-height: 27px !important;
+  }
+  .domains {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
+  .generation-text {
+    color: white;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .i-right {
+    display: none;
+  }
+  .find-icon {
+    color: white;
+  }
+  .res-border {
+    border: 1px solid white;
+  }
+}
