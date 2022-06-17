@@ -2,7 +2,6 @@
 header {
   position: relative;
   padding: 140px 0;
-  /* background: url(../../images/cloud_native.png); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,6 +17,7 @@ header .discover-text {
   font-weight: 700;
   text-transform: lowercase;
 }
+
 header p {
   color: var(--thGray2);
   font-size: 17px;
@@ -72,6 +72,8 @@ header ul.social-links a:hover {
 }
 .content-size {
   display: flex;
+  /* flex-direction: column;
+  flex-direction: column-reverse; */
 }
 
 /* -------------------------- */
@@ -641,9 +643,16 @@ header ul.social-links a:hover {
     font-size: 32px;
     line-height: 51px !important;
   }
+  .content-size {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
   /* -- :: Section II */
   .se-ii .plan h4 {
     font-size: 18px;
+  }
+  .buttons {
+    margin-left: 16%;
   }
   .se-ii .plan h3 {
     font-size: 24px;

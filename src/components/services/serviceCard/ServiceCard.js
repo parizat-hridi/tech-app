@@ -170,7 +170,7 @@ export const ServiceCard = () => {
         <div className="buttons">
           <button className="button-style">Business Card</button>
           <button className="web-button web-style">Logo Design</button>
-          <button className="web-button"> Print Templets</button>
+          <button className="web-button print-button"> Print Templets</button>
         </div>
         <div className="row child-mb-2  py-80">
           <div className="col-xl-4 col-md-6 col-12" style={{ marginTop: '7%' }}>

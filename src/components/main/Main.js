@@ -10,7 +10,7 @@ export const Main = () => {
         <div className="container ">
           <div className="row">
             <div className="content-size">
-              <div>
+              <div className="margin-content">
                 <span className="text-uppercase best-text">
                   Best Software Development Company&nbsp;
                 </span>
@@ -40,15 +40,31 @@ export const Main = () => {
                   <a
                     href="#pricing"
                     className="th-btn th-btn-fill-primary mx-2 my-1"
-                    style={{ borderRadius: '20px', backgroundColor: '#590BB2' }}
+                    style={{
+                      borderRadius: '20px',
+                      backgroundColor: '#590BB2',
+                    }}
                   >
                     <span className="search-text"> Search</span>
                   </a>
                 </div>
               </div>
               <div className="i-right">
-                <img src={Cloud} alt="" className="i-img" />
+                <img
+                  src={Cloud}
+                  alt=""
+                  className="i-img"
+                  style={{ height: 'auto', width: '100%' }}
+                />
               </div>
+              {/* <div className="i-right responsive-img">
+                <img
+                  src={Cloud}
+                  alt=""
+                  className="i-img i-responsive-img"
+                  style={{ height: 'auto', width: '350px' }}
+                />
+              </div> */}
             </div>
           </div>
         </div>

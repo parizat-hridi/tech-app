@@ -116,7 +116,7 @@ export const Login = () => {
               </div>
 
               <div class="text-center">
-                <a href="./register.html" class="link">
+                <a href="#account" class="link">
                   Don't have an account? <span>Create an account.</span>
                 </a>
               </div>

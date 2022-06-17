@@ -24,9 +24,14 @@ export const MainThree = () => {
             </p>
           </div>
           <div className="buttons">
-            <button className="button-style">Software Build</button>
-            <button className="web-button web-style">Web Design</button>
-            <button className="web-button"> Graphic Design</button>
+            <div className="btn-groups">
+              <button className="button-style">Software Build</button>
+              <button className="web-button web-style">Web Design</button>
+              <button className="web-button graphic-button">
+                {' '}
+                Graphic Design
+              </button>
+            </div>
           </div>
           <div className="row child-mb-2  py-80">
             <div

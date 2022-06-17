@@ -9,15 +9,13 @@
   header {
     margin-top: 6%;
   }
-  .i-right {
-    display: none;
-  }
   header .discover-text {
     color: white;
     font-size: 23px;
     font-weight: 700;
     text-transform: lowercase;
   }
+
   .dream-text {
     color: white;
     font-size: 15px;
@@ -27,5 +25,10 @@
     font-size: 20px;
     font-weight: 700;
     color: white;
+  }
+  .content-size {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }

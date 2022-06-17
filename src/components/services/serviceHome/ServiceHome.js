@@ -10,7 +10,7 @@ export const ServiceHome = () => {
           <div className="container ">
             <div className="row">
               <div className="content-size">
-                <div>
+                <div className="margin-content">
                   <span className="text-uppercase discover-text">
                     Discover 7,528 fonts, logos & presentations from $2
                   </span>
@@ -48,9 +48,14 @@ export const ServiceHome = () => {
                 </div>
                 <div
                   className="i-right"
-                  style={{ marginLeft: '25%', width: '90%' }}
+                  style={{ marginLeft: '5%', width: '90%' }}
                 >
-                  <img src={Service} alt="" className="i-img" />
+                  <img
+                    src={Service}
+                    alt=""
+                    className="i-img"
+                    style={{ height: 'auto', width: '100%' }}
+                  />
                 </div>
               </div>
             </div>
